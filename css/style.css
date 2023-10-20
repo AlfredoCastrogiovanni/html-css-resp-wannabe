@@ -166,15 +166,6 @@ img {
         width: 100%;
     }
 
-    .lessons .col {
-        width: 100%;
-        margin-bottom: 3rem;
-    }
-
-    .lessons .col img {
-        height: 250px;
-    }
-
     .steps {
         margin: 0;
     }
@@ -184,19 +175,10 @@ img {
         margin-bottom: 3rem;
     }
 
-    .steps .col img {
-        height: 250px;
-    }
-
     .why-us {
         background-color: rgb(34, 34, 34);
         padding: 3rem 0;
         margin: 0;
-    }
-
-    .why-us .col-left {
-        width: 100%;
-        margin-bottom: 3rem;
     }
 
     .why-us .col-right {
@@ -205,5 +187,17 @@ img {
 
     .why-us li {
         font-size: 1rem;
+    }
+
+    .lessons .col,
+    .steps .col,
+    .why-us .col-left {
+        width: 100%;
+        margin-bottom: 3rem;
+    }
+
+    .lessons .col img,
+    .steps .col img {
+        height: 250px;
     }
 }
